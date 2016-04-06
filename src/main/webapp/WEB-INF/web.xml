@@ -1,0 +1,11 @@
+<web-app>
+    <display-name>surffer</display-name>
+    <servlet>
+        <servlet-name>surffer</servlet-name>
+        <servlet-class>response.MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>surffer</servlet-name>
+        <url-pattern>/surffer</url-pattern>
+    </servlet-mapping>
+</web-app>
